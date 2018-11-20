@@ -1,4 +1,4 @@
-### TorNodeSearch
+# TorNodeSearch
 
 A basic shell script to check if an IP address is listed as a Tor node (exit or relay)
 on the Tor DNS (IP-based) blacklists operated by dan.me.uk
@@ -7,5 +7,5 @@ If your search has a result other than those dashes then it is listed. The resul
 
 Compatible with POSIX systems - Linux, BSD, Solaris etc.
 
-### Example command: 
+## Example command: 
 `./tornodesearch.sh 192.168.0.2`
