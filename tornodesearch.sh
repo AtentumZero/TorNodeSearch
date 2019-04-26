@@ -1,11 +1,5 @@
 #!/bin/sh
 
-# tornodesearch.sh
-# A basic shell script to check if an IP address is listed as a Tor node (exit or relay)
-# on the Tor DNS (IP-based) blacklists operated by dan.me.uk
-
-# Example command: ./tornodesearch.sh 192.168.0.2
-
 BLISTS="
     tor.dan.me.uk
     torexit.dan.me.uk
